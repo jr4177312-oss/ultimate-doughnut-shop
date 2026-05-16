@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Ultimate Doughnut Shop</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#fff8f2;
+color:#222;
+}
+
+header{
+background:#c94c24;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+header h1{
+margin:0;
+font-size:48px;
+}
+
+.hero{
+padding:60px 20px;
+text-align:center;
+background:#ffe9d6;
+}
+
+.hero h2{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+margin:auto;
+}
+
+.button{
+display:inline-block;
+background:#c94c24;
+color:white;
+padding:15px 25px;
+margin:10px;
+border-radius:30px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.section{
+padding:50px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+width:300px;
+padding:20px;
+border-radius:20px;
+box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#222;
+color:white;
+padding:30px;
+text-align:center;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🍩 The Ultimate Doughnut Shop</h1>
+<p>Knoxville's Favorite Local Doughnut Spot</p>
+</header>
+
+<section class="hero">
+<h2>Fresh Doughnuts, Drinks & Breakfast Favorites</h2>
+<p>
+Fresh glazed doughnuts, apple fritters, croissants, bagels,
+boba tea, smoothies, shakes and more made fresh daily.
+</p>
+
+<a class="button" href="tel:8654443121">📞 Call Now</a>
+<a class="button" href="https://maps.google.com/?q=7815+Oak+Ridge+Hwy+Knoxville+TN+37931" target="_blank">
+📍 Get Directions
+</a>
+</section>
+
+<section class="section">
+<h2>🍩 Customer Favorites</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Apple Fritters</h3>
+<p>Fresh, glazed, bakery-style favorites.</p>
+</div>
+
+<div class="card">
+<h3>Maple Bacon Donuts</h3>
+<p>Sweet, salty and unforgettable.</p>
+</div>
+
+<div class="card">
+<h3>Donut Holes</h3>
+<p>Perfect for sharing or grabbing on the go.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section" style="background:#ffe9f1;">
+<h2>🥤 Drinks & Breakfast</h2>
+<p>
+Boba Tea • Smoothies • Shakes • Croissants • Bagels
+</p>
+</section>
+
+<section class="section">
+<h2>📍 Visit Us</h2>
+
+<p><strong>Address:</strong><br>
+7815 Oak Ridge Hwy<br>
+Knoxville, TN 37931</p>
+
+<p><strong>Phone:</strong><br>
+(865) 444-3121</p>
+
+<h3>Hours</h3>
+
+<p>
+Monday: Closed<br>
+Tuesday-Friday: 5:30 AM - 2 PM<br>
+Saturday: 6 AM - 2 PM<br>
+Sunday: 6 AM - 12 PM
+</p>
+</section>
+
+<footer>
+<h3>The Ultimate Doughnut Shop</h3>
+<p>Fresh doughnuts, breakfast & drinks in Knoxville, Tennessee.</p>
+</footer>
+
+</body>
+</html>
